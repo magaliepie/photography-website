@@ -1,0 +1,23 @@
+@keyframes image-appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes block-appear {
+    0% {
+        top: 0;
+        width: 0%;
+    }
+    50% {
+        top: 0;
+        width: 100%;
+    }
+    100% {
+        top: 100%;
+        width: 0%;
+    }
+}

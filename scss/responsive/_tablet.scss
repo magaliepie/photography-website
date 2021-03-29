@@ -1,0 +1,33 @@
+// tablet
+@media (min-width: 768px) and (max-width: 1200px) {
+    .img-wrapper-sm {
+        @include img-wrapper(250px, 40%);
+    }
+    .img-sm {
+        height: 600px;
+        width: 400px;
+    }
+    .img-md {
+        display: none;
+    }
+    .block-sm {
+        width: 450px;
+        left: 150px;
+        bottom: 10%;
+    }
+
+    .block-lg {
+        height: 100px;
+        width: 100%;
+        top: 40%;
+        h1 {
+            height: 50px;
+            font-size: $text-lg;
+            padding: $p10 $p10;
+        }
+        p {
+            font-size: $text-xs;
+            padding: $p05 $p20;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+@import './variables';
+
+// padding properties
+.p10 {
+    padding: $p10;
+}
+.pr20 {
+    padding-right: $pr20;
+}
+.pl20 {
+    padding-left: $pl20;
+}
+.pl50 {
+    padding-left: $pl50;
+}
+
+// font size properties
+$font-sizes: (
+    text-sm: $text-sm,
+    text-md: $text-md,
+    text-xl: $text-xl,
+);
+
+@each $name, $size in $font-sizes {
+    .#{$name} {
+        font-size: $size;
+    }
+}
+
+// font weight properties
+$font-weights: (
+    font-light: $font-light,
+    font-300: $font-300,
+    font-500: $font-500,
+    font-600: $font-600,
+);
+
+@each $name, $weight in $font-weights {
+    .#{$name} {
+        font-weight: $weight;
+    }
+}
+// letter spacing properties
+.letter-spacing-1 {
+    letter-spacing: $letter-spacing-1;
+}
+.letter-spacing-2 {
+    letter-spacing: $letter-spacing-2;
+}
+.letter-spacing-5 {
+    letter-spacing: $letter-spacing-5;
+}
+.font-slabo {
+    font-family: $font-slabo;
+}

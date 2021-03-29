@@ -1,0 +1,9 @@
+.social {
+    position: absolute;
+    top: 75%;
+    left: -90px;
+    transform: rotate(-90deg);
+    &-item {
+        display: inline-block;
+    }
+}

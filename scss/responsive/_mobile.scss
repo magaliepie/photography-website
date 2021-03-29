@@ -1,0 +1,32 @@
+//mobile
+@media (max-width: 767px) {
+    .img-md {
+        display: none;
+    }
+    .img-sm {
+        display: none;
+    }
+    .block-sm {
+        width: 200px;
+        height: 200px;
+        font-size: $text-xs;
+        left: 80px;
+    }
+    .block-lg {
+        width: 100%;
+        top: 40%;
+        h1 {
+            height: 20px;
+            font-size: $text-md;
+            padding: $p10 $p10;
+        }
+        p {
+            font-size: $text-xs;
+            padding: $p05 $p10;
+        }
+    }
+    .social-item {
+        font-size: $text-sm;
+        padding-bottom: $p20;
+    }
+}

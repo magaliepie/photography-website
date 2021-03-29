@@ -1,0 +1,14 @@
+@import './variables';
+
+// background color properties
+.bg-primary {
+    background-color: $bg-primary;
+}
+.bg-secondary {
+    background-color: $bg-secondary;
+}
+
+// text color properties
+.text-white {
+    color: $text-white;
+}

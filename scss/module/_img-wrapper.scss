@@ -1,0 +1,27 @@
+// image wrappers
+
+.img-wrapper-sm {
+    @include img-wrapper(300px, 10%);
+}
+.img-wrapper-md {
+    @include img-wrapper(0, 55%);
+}
+.img-sm {
+    @include display-image(
+        600px,
+        450px,
+        '/img/pexels-sasha-prasastika-2695391.jpg',
+        // Original photo by  Sasha Prasastika from Pexels
+        2.2s
+    );
+}
+
+.img-md {
+    @include display-image(
+        100vh,
+        800px,
+        '/img/pexels-mario-cuadros-4075993-min.jpg',
+        // Original photo by  Mario Cuadros from Pexels
+        2.5s
+    );
+}

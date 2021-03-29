@@ -1,0 +1,16 @@
+@mixin display-image($height, $width, $url, $delay) {
+    height: $height;
+    width: $width;
+    display: block;
+    background: url($url) no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    opacity: 0;
+    animation: image-appear 0.0001s linear forwards;
+    animation-delay: $delay;
+}
+@mixin img-wrapper($top, $left) {
+    position: absolute;
+    top: $top;
+    left: $left;
+}
